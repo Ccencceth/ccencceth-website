@@ -1,4 +1,19 @@
 body {
     background-color: black;
     color: white;
+    margin: 0px;
+}
+
+.navbar {
+    background-color: gray;
+    color: white;
+    min-height: 100px;
+    padding: 0px;
+    border-bottom-style: solid;
+    border-color: darkgray;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 100px;
 }
