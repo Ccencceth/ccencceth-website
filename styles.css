@@ -1,3 +1,11 @@
+:root {
+    --Purple: #a2f;
+    --RichBlack: #0d1321;
+    --PrussianBlue: #1d2d44;
+    --MaxBluePurple: #a7abdd;
+    --Mauve: #dabfff;
+}
+
 body {
     background-color: black;
     color: white;
@@ -5,15 +13,24 @@ body {
 }
 
 .navbar {
-    background-color: gray;
-    color: white;
+    background-color: var(--RichBlack);
+    width: 100%;
     min-height: 100px;
     padding: 0px;
     border-bottom-style: solid;
-    border-color: darkgray;
+    border-color: var(--PrussianBlue);
 }
 
 h1 {
     margin: 0px;
     font-size: 100px;
+}
+
+.neonText {
+    color: white;
+    text-shadow:
+      0 0 7px var(--Mauve),
+      0 0 10px var(--Mauve),
+      0 0 21px var(--Purple),
+      0 0 42px var(--Purple);
 }
