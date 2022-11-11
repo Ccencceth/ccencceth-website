@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: var(--RichBlack);
     color: white;
     margin: 0px;
 }
@@ -19,18 +19,10 @@ body {
     padding: 0px;
     border-bottom-style: solid;
     border-color: var(--PrussianBlue);
+    border-width: 5px;
 }
 
 h1 {
     margin: 0px;
-    font-size: 100px;
-}
-
-.neonText {
-    color: white;
-    text-shadow:
-      0 0 7px var(--Mauve),
-      0 0 10px var(--Mauve),
-      0 0 21px var(--Purple),
-      0 0 42px var(--Purple);
+    font-size: 70px;
 }
