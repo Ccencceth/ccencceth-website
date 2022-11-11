@@ -13,16 +13,34 @@ body {
 }
 
 .navbar {
-    background-color: var(--RichBlack);
+    background-image: linear-gradient(var(--RichBlack), var(--PrussianBlue));
     width: 100%;
-    min-height: 100px;
     padding: 0px;
     border-bottom-style: solid;
     border-color: var(--PrussianBlue);
     border-width: 5px;
+    padding: 10px 16px;
 }
 
 h1 {
     margin: 0px;
     font-size: 70px;
 }
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+  
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+  
