@@ -20,6 +20,26 @@ body {
     border-color: var(--PrussianBlue);
     border-width: 5px;
     padding: 10px 16px;
+    position: fixed;
+}
+
+.social-button
+{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0px 8px;
+}
+
+.social
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo
+{
+    width: 20px;
 }
 
 h1 {
@@ -27,20 +47,7 @@ h1 {
     font-size: 70px;
 }
 
-/* Page content */
 .content {
-    padding: 16px;
-}
-  
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-  
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-    padding-top: 102px;
+    padding: 150px 16px;
 }
   
