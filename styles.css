@@ -10,6 +10,7 @@ body {
     background-color: var(--RichBlack);
     color: white;
     margin: 0px;
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -21,6 +22,21 @@ body {
     border-width: 5px;
     padding: 10px 16px;
     position: fixed;
+    font-family: "Audiowide", sans-serif;
+}
+
+.nav-left {
+    display: inline-block;
+}
+
+.nav-right {
+    float: right;
+    padding-right: 20px;
+}
+
+.home-button {
+    color: white;
+    text-decoration: none;
 }
 
 .social-button
